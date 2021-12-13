@@ -1,0 +1,40 @@
+@import '_variables';
+
+@tablet: ~"(max-width: 990.8px)";
+@mobile: ~"(max-width: 768.8px)";
+
+@media @tablet {
+
+    .btn {
+        padding: .250rem .50rem;
+    }
+
+    .button {
+
+        &-group {
+            padding: 1rem 0 0rem 1rem;
+        }
+    }
+
+    .card-k {
+        max-width: 48%;
+    }
+}
+
+@media @mobile {
+    
+    .card-k {
+        max-width: 80%;
+    }
+
+    .form {
+        
+        &-img {
+            max-width: 80%;
+        }
+    }
+}
+
+@media (max-width: 537px) {}
+
+@media (max-width: 321px) {}
